@@ -101,6 +101,21 @@ header {
   object-fit: cover;
 }
 
+.name-product {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.price-product {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.price-product:last-child {
+  color: darkorange;
+}
+
 .container-products2 {
   display: flex;
   flex-direction: row;
@@ -127,4 +142,110 @@ header {
   width: 200px;
   height: 200px;
   object-fit: cover;
+}
+
+.information-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  margin-top: 2rem;
+}
+
+.information-contact-navigation {
+  margin-top: 5rem;
+  margin-left: 19.7rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.information-contact-navigation li {
+  cursor: pointer;
+  list-style: none;
+}
+
+.talk-with-us {
+  display: flex;
+  flex-direction: row;
+  margin-right: 19.7rem;
+  margin-top: 3rem;
+}
+
+.talk-with-us label{
+  float: left;
+  position: absolute;
+  margin-top: -18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+.talk-with-us input {
+  margin-top: 1rem;
+  width: 370px;
+  height: 44px;
+  border: 0;
+  background-color: #f8f8f8;
+  padding-left: 8px;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.talk-with-us button {
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100px;
+  height: 44px;
+  background-color: lightblue;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0;
+}
+
+.talk-with-us button:hover{
+  background-color: blue;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+  background-color: lightgray;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 18.7rem;
+}
+
+.social-icons img {
+  margin-left: 15px;
+}
+
+.payments-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 18.7rem;
+  /* margin-top: 5rem; */
+}
+
+.payments-icons img {
+  margin-right: 15px;
 }
